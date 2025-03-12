@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmad Yussef - CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <style>
+    /* Reset and basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #eaeaea;
+      color: #333;
+    }
+    a {
+      color: #32cd32;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Header */
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    header img {
+      width: 400px;
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 5px solid #32cd32;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    /* Navigation */
+    nav {
+      background: #006400;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 10px;
+    }
+    nav ul li {
+      margin: 5px 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background: #32cd32;
+    }
+    /* Container */
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    /* Section Titles */
+    h2 {
+      color: #006400;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #006400;
+    }
+    /* Sections */
+    .section {
+      margin-bottom: 40px;
+    }
+    .section p,
+    .section li {
+      margin: 8px 0;
+    }
+    .section ul {
+      list-style: disc inside;
+      padding-left: 20px;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .contact-item {
+      margin: 5px 0;
+    }
+    /* Social and other links */
+    .social-links li {
+      display: inline;
+      margin-right: 15px;
+    }
+    /* Footer */
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .contact-info {
+        flex-direction: column;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      header img {
+        width: 90%; /* Adjust for smaller screens */
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Ahmad Yussef</h1>
+    <img src="https://i.postimg.cc/DyVGYfgK/IMG-20250311-235829-403.jpg" 
+       alt="Professional Graduation Photo">
+    <p>Computer &amp; Networks Engineer | Cyber Security Specialist</p>
+  </header>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#biography">Biography</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#training">Training Courses</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experiences</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#accounts">Accounts</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+    </ul>
+  </nav>
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Biography Section -->
+    <section id="biography" class="section">
+      <h2>Biography</h2>
+      <div class="contact-info">
+        <div class="contact-item"><strong>Email:</strong> <a href="mailto:a7madhacck@gmail.com">a7madhacck@gmail.com</a></div>
+        <div class="contact-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ahmad-yussef-12b5a7262" target="_blank">Ahmad Yussef on LinkedIn</a></div>
+      </div>
+      <p><strong>Objective:</strong> Seeking a job as a Computer and Networks Engineer in the field of Cyber Security using my skills.</p>
+    </section>
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p><strong>College:</strong> Engineering</p>
+      <p><strong>Department:</strong> IT</p>
+      <p><strong>Duration:</strong> Five years</p>
+      <p><strong>University:</strong> Graduated in Informatics from Al-Shahba Private University.</p>
+    </section>
+    <!-- Training Courses Section -->
+    <section id="training" class="section">
+      <h2>Training Courses</h2>
+      <ul>
+        <li>Ethical Hacking -- 2023 (TCM Security)</li>
+        <li>OSCP -- 2023 (Online YouTube)</li>
+        <li>EWPTX -- 2023 (Online YouTube)</li>
+        <li>EJPT -- 2022 (Online YouTube)</li>
+        <li>Penetration Testing Web -- 2022 (Online YouTube)</li>
+        <li>OWASP 10 Vulnerability -- 2022 (Online YouTube)</li>
+        <li>Penetration Testing Web in Arabic -- 2021 (Online Udemy)</li>
+        <li>Security+ -- 2021 (Online YouTube)</li>
+        <li>CCNA -- 2021 (Online YouTube)</li>
+        <li>MCSA -- 2021 (Online YouTube)</li>
+        <li>Windows Server -- 2021 (Online YouTube)</li>
+      </ul>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Private methodology</li>
+        <li>Thinking out of the box</li>
+        <li>Everyday learning</li>
+        <li>Strong communication</li>
+        <li>Excellent listening and reading</li>
+        <li>Quick comprehension and response</li>
+      </ul>
+    </section>
+    <!-- Experiences Section -->
+    <section id="experience" class="section">
+      <h2>Experiences</h2>
+      <ul>
+        <li>Found more than 10 vulnerabilities on Google Bug Bounty Program and earned multiple rewards and swags.</li>
+        <li>Ranked Top 2 on Hall of Fame in Google (December 2024).</li>
+        <li>Listed among Top 300 on Google Program.</li>
+        <li>Ranked Top 196 on Google VRP Program.</li>
+        <li>Ranked Top 3 in Egypt on Google Bug Bounty (2024).</li>
+        <li>Worked at Bookmap Company as Cyber Security Specialist for 3 months, with a recommendation from the CTO.</li>
+        <li>Security Researcher at HackerOne and Bugcrowd.</li>
+        <li>Creator of Bug Bounty &amp; Security content on a Telegram channel.</li>
+        <li>Secured my university by reporting over 15 vulnerabilities (with official recommendation).</li>
+        <li>Earned more than $10k on HackerOne in October 2023.</li>
+        <li>Ranked Top 1 in Wurl Bug Bounty Program on the HackerOne platform.</li>
+        <li>Discovered more than 100 vulnerabilities on HackerOne Platform.</li>
+        <li>Achieved Top 4 in the world for an XSS vulnerability (July–September 2023).</li>
+        <li>Ranked Top 1 in Iraq (July–September 2023).</li>
+        <li>Ranked Top 1 on one of the famous programs on HackerOne.</li>
+        <li>Protected over 200 companies from vulnerabilities and security issues.</li>
+        <li>Discovered multiple vulnerabilities on NASA.gov and was inducted into the NASA Program Hall of Fame on Bugcrowd.</li>
+        <li>Discovered vulnerabilities in the Estonia Government systems and ranked among the Top 10 hackers.</li>
+        <li>Excellent knowledge of Web Vulnerabilities and OWASP Top 10.</li>
+        <li>Strong expertise in Networking and Operating Systems.</li>
+      </ul>
+    </section>
+    <!-- Languages Section -->
+    <section id="languages" class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li><strong>Kurdish:</strong> Native</li>
+        <li><strong>Arabic:</strong> Native</li>
+        <li><strong>English:</strong> Very good (Listening, Reading, Writing) -- Certificate from Project Center</li>
+      </ul>
+    </section>
+    <!-- Accounts / Social Media Section -->
+    <section id="accounts" class="section">
+      <h2>Accounts</h2>
+      <ul class="social-links">
+        <li><a href="https://bughunters.google.com/profile/15730be4-08df-4e2a-bd89-eae9dbd14a5b" target="_blank">Google Bug Bounty</a></li>
+        <li><a href="https://t.me/a7madn1" target="_blank">Telegram</a></li>
+        <li><a href="https://hackerone.com/a7madn1_" target="_blank">HackerOne</a></li>
+        <li><a href="https://bugcrowd.com/a7mad_n1" target="_blank">Bugcrowd</a></li>
+        <li><a href="https://twitter.com/a7mad__n1" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/ahmad-yussef-12b5a7262" target="_blank">LinkedIn</a></li>
+        <li><a href="https://medium.com/@a7madhacck" target="_blank">Medium</a></li>
+      </ul>
+    </section>
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="section">
+      <h2>Recommendations</h2>
+      <ul>
+        <li><a href="https://drive.google.com/file/d/1l4WWBF-OrUA_4WtQUKGM9v16d_wY7RTA/view?usp=drivesdk" target="_blank">Recommendation 1</a></li>
+        <li><a href="https://drive.google.com/file/d/1kgqciiRlBed0cw3Y9Vz2rO8gjGUR2tOJ/view" target="_blank">Recommendation 2</a></li>
+      </ul>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ahmad Yussef. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
